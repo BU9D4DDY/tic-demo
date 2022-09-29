@@ -15,6 +15,7 @@ spec:
       containers:
         - name: tickets
           image: diaahassan/tickets
+          imagePullPolicy: Never
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
