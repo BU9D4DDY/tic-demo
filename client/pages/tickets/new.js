@@ -20,6 +20,7 @@ const NewTicket = () => {
   
   doRequest();
  };
+
  
  const onBlur = () => {
   const value = parseFloat(price);
