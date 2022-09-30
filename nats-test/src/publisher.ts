@@ -11,6 +11,7 @@ stan.on('connect', async () => {
   console.log("Publisher connected to NATS");
   
   
+  
   const publisher = new TicketCreatedPublisher(stan);
   try{
     await publisher.publish({
